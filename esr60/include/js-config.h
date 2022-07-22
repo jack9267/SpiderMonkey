@@ -61,7 +61,7 @@
 /* #undef JS_CRASH_DIAGNOSTICS */
 
 /* Define to 1 if SpiderMonkey is in NUNBOX32 mode. */
-#define JS_NUNBOX32 1
+/* #undef JS_NUNBOX32 */
 #if !defined(_WIN64) && !defined(_M_X64)
 #define JS_NUNBOX32 1
 #endif
